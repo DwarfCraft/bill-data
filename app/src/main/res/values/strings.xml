@@ -6,4 +6,5 @@
     <string name="Im_a_Button">I\'m a Button</string>
     <string name="submit_button">Submit</string>
     <string name="title_reports">Reports</string>
+    <string name="electric_amount">Enter Electric Bill Amount</string>
 </resources>
