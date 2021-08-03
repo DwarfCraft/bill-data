@@ -1,0 +1,10 @@
+com/dwarfcraft/bill_data/BuildConfig.java
+ com.dwarfcraft.bill_data.BuildConfig
+com/dwarfcraft/bill_data/databinding/ActivityMainBinding.java
+ com.dwarfcraft.bill_data.databinding.ActivityMainBinding
+com/dwarfcraft/bill_data/databinding/FragmentDashboardBinding.java
+ com.dwarfcraft.bill_data.databinding.FragmentDashboardBinding
+com/dwarfcraft/bill_data/databinding/FragmentNotificationsBinding.java
+ com.dwarfcraft.bill_data.databinding.FragmentNotificationsBinding
+com/dwarfcraft/bill_data/databinding/FragmentHomeBinding.java
+ com.dwarfcraft.bill_data.databinding.FragmentHomeBinding
