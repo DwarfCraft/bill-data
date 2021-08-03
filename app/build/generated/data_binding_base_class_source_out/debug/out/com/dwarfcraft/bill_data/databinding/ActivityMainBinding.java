@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.dwarfcraft.bill_data.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
@@ -71,7 +72,7 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.button;
-      Button button = rootView.findViewById(id);
+      Button button = ViewBindings.findChildViewById(rootView, id);
       if (button == null) {
         break missingId;
       }
@@ -79,13 +80,13 @@ public final class ActivityMainBinding implements ViewBinding {
       ConstraintLayout container = (ConstraintLayout) rootView;
 
       id = R.id.nav_host_fragment_activity_main;
-      FragmentContainerView navHostFragmentActivityMain = rootView.findViewById(id);
+      FragmentContainerView navHostFragmentActivityMain = ViewBindings.findChildViewById(rootView, id);
       if (navHostFragmentActivityMain == null) {
         break missingId;
       }
 
       id = R.id.nav_view;
-      BottomNavigationView navView = rootView.findViewById(id);
+      BottomNavigationView navView = ViewBindings.findChildViewById(rootView, id);
       if (navView == null) {
         break missingId;
       }

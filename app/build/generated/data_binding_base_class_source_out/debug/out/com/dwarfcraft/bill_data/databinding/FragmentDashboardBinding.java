@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.dwarfcraft.bill_data.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -55,7 +56,7 @@ public final class FragmentDashboardBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.text_dashboard;
-      TextView textDashboard = rootView.findViewById(id);
+      TextView textDashboard = ViewBindings.findChildViewById(rootView, id);
       if (textDashboard == null) {
         break missingId;
       }

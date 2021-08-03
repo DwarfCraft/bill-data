@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\thund\\AndroidStudioProjects\\bill-data\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thund\\.gradle\\caches\\transforms-2\\files-2.1\\b9972f23873aac7b9a345e4f8f7b8547\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\thund\\.gradle\\caches\\transforms-3\\caed27fb6240bc0f7998dbe2836955ae\\transformed\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\thund\\.gradle\\caches\\transforms-2\\files-2.1\\ffa596c1f9a25afa265e12d5403be142\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\thund\\.gradle\\caches\\transforms-3\\346f5fdb611ae7d8556f533463d5689d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\thund\\.gradle\\caches\\transforms-2\\files-2.1\\0b1c85e470567ba146a4ab0add494570\\material-1.2.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\thund\\.gradle\\caches\\transforms-3\\ad3db512115d3b9848269d18ff3f3764\\transformed\\material-1.2.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
